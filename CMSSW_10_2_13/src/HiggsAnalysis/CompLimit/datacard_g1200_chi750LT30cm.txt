@@ -1,0 +1,28 @@
+Date: 2019-08-31 
+Description: Disappearing Tracks, lifetime g1200_chi750 cm, lumi=35.9 fb-1
+---------------------------------------------------------------------------
+imax   1  number of channels
+jmax   *  number of backgrounds
+kmax   *  number of nuisance parameters
+---------------------------------------------------------------------------
+shapes * * Limit_BinNumberAllBkg_Signalg1200_chi750_30cm.root $PROCESS $PROCESS_$SYSTEMATIC
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+bin            ak
+Observation    100.0 
+---------------------------------------------------------------------------
+bin                               ak     ak     ak     ak      ak   
+process                          Signalg1200_chi750   Electron     Muon     Tau      Fake
+process                            0             1          2        3        4
+---------------------------------------------------------------------------
+rate                             5.81171292067           49.9374660254       27.4866051674       3.55164706148      63.8859846592               
+---------------------------------------------------------------------------
+lumi_13TeV               lnN    1.027           1.027       1.027   1.027    1.027 Luminosity Error
+Sys                     shapeN2   1		-	     -        -       -  Systematic error 
+Sys                     shapeN2   -             1            -        -       -  Systematic error
+Sys                     shapeN2   -             -            1        -       -  Systematic error
+Sys                     shapeN2   -             -            -        1       -  Systematic error
+Sys                     shapeN2   -             -            -        -       1  Systematic error
+* autoMCStats 0 1
+
+
