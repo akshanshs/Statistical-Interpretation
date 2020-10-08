@@ -1,1 +1,1 @@
-# Statistical-Interpretation
+Go to the master branch
